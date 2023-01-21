@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,9 +9,42 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="page.css">
   <link rel="stylesheet" href="contact-us.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
+  <style>
+    .panel-default > .panel-heading {
+  color:white;
+  background-color:black;
+  border-color:black;
+}
+.panel-body
+{
+  background-color:black;
+}
+    .dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
   
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+</style>
 </head>
 
 <body>
@@ -38,7 +72,7 @@ Jumbotron -->
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="#">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvmbjEMwL4dLrrjK7mhENQmVeL83RujZjggg&usqp=CAU" alt="Logo" style="width:90px;" class="rounded-pill">
+          <img src="logo.PNG" alt="Avatar" class="avatar">
         </a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
@@ -54,23 +88,8 @@ Jumbotron -->
     
     </div>
   </nav>
-  <div class="container">
-
-    <div class="row height d-flex justify-content-center align-items-center">
-
-      <div class="col-md-6">
-
-        <div class="form">
-          <i class="fa fa-search"></i>
-          <input type="text" class="form-control form-input" placeholder="Search anything...">
-          <span class="left-pan"><i class="fa fa-microphone"></i></span>
-        </div>
-        
-      </div>
-      
-    </div>
-    
-  </div><br><br>
+  
+ 
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
@@ -91,7 +110,7 @@ Jumbotron -->
       <div class="col-sm-4">
         <div class="panel panel-primary">
           <div class="panel-heading">Designer Cakes</div>
-          <div class="panel-body"><img
+          <div class="panel-body" ><img
               src="https://www.giftjaipur.com/image/cache/catalog/2020/piano-designer-cake-500x500.jpg"
               class="img-responsive" alt="Image" width="290" height="400"></div>
         </div>
@@ -142,72 +161,46 @@ Jumbotron -->
 
 
 
-<footer class="bg-white">
-  <div class="container py-5">
-    <div class="row py-3">
-
-      <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-        <h6 class="text-uppercase font-weight-bold mb-4">About</h6>
-        <ul class="list-unstyled mb-0">
-          <li class="mb-2"><a href="#" class="text-muted">Contact Us</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">About Us</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Stories</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Press</a></li>
-        </ul>
-      </div>
-
-      <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-        <h6 class="text-uppercase font-weight-bold mb-4">Help</h6>
-        <ul class="list-unstyled mb-0">
-          <li class="mb-2"><a href="#" class="text-muted">Payments</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Shipping</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Cancellation</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Returns</a></li>
-        </ul>
-      </div>
-      
-      <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-        <h6 class="text-uppercase font-weight-bold mb-4">Policy</h6>
-        <ul class="list-unstyled mb-0">
-          <li class="mb-2"><a href="#" class="text-muted">Return Policy</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Terms Of Use</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Security</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Privacy</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-        <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
-        <ul class="list-unstyled mb-0">
-          <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Sitemap</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Our Products</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-lg-0">
-        <h6 class="text-uppercase font-weight-bold mb-4">Phone Number</h6>
-        <p class="text-muted mb-4">9999111999</p>
-        <ul class="list-inline mt-4">
-          <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fab  fa-2x fa-twitter"></i></a></li>
-          <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fab fa-2x fa-facebook-f"></i></a></li>
-          <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fab fa-2x fa-instagram"></i></a></li>
-          <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fab fa-2x fa-youtube"></i></a></li>
-          <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fab fa-2x fa-google"></i></a></li>
-        </ul>
-      </div>
+<footer id="dk-footer" class="dk-footer">
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-body"> <center><h2>CAKE SHOP</h2></center></div>
     </div>
   </div>
-  <hr class="p-0 m-0 b-0">
-
- 
-  <div class="bg-light py-2">
-    <div class="container text-center">
-      
-      
+    <div class="container">
+      <div class="row">
+        <div class="column" style="background-color:black;">
+         
+          <h3>Contact us</h3>
+          <i class="fa fa-phone" style="font-size:20px">&nbsp;8877867523</h6></i><br>
+                    <i class="fa fa-envelope" style="font-size:20px">&nbsp;20p148@kce.ac.in</i>
+                    <p class="mb-30 footer-desc">
+        </div>
+        <div class="column" style="background-color:black;">
+        <h3>Address</h3>
+        <i class="fa fa-address-card-o" style="font-size:36px"></i>
+        <p>Cake Shop,</p><p>Malumichampatti,</p><p>coimbatore</p><br>
+        <div style="text-align:left">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+         
+        </div>
+        <div class="column" style="background-color:black;">
+          <h3>Useful links</h3>
+          <h5>About us<h5>
+          <h5>contact us<h5>
+          <h5>sign up/login<h5>
+          <h5>Cart<h5>
+          <h5>privacy policy<h5>
+          <h5>terms and contions<h5>
+        </div>
       </div>
-    </div>
-  
+          </div>
 </footer>
+
 
 </body>
 
